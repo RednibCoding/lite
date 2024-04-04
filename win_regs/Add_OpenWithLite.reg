@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; Add context menu option for files
+[HKEY_CLASSES_ROOT\*\shell\OpenWithLite]
+"MUIVerb"="Open with Lite"
+; Optionaly define an icon: replace with actual path to lite.ico
+"Icon"="absolute\\path\to\\lite.ico"
+
+[HKEY_CLASSES_ROOT\*\shell\OpenWithLite\command]
+; Command to open right-clicked file with lite.exe
+@="absolute\\path\to\\lite.exe \"%1\""

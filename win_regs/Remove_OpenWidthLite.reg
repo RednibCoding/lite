@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+; Remove context menu option for files
+[-HKEY_CLASSES_ROOT\*\shell\OpenWithLite]

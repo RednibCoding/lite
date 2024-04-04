@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\LiteHere]
+"MUIVerb"="Lite here"
+; Optionaly define an icon: replace with actual path to lite.ico
+"Icon"="absolute\\path\to\\lite.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\LiteHere\command]
+; Replace with actual path to lite.exe
+@="absolute\\path\to\\lite.exe \"%V\""
